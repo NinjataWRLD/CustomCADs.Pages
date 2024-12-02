@@ -5,7 +5,7 @@
   - Info pages (Roles, Printer, Privacy Policy)
   - About us page (including an offer to join the dev/designer teams by emailing us at customcads@gmail.com)
   - Gallery page (including searchbar with filter and sort options, grid/list option for products, and pagination - products show only the image)
-  - Product page (details of any of the items in Gallery page, full Product info, visualized Cad, Tweak and Add to Cart buttons (disabled if not a Client))
+  - Product page (details of the items in Gallery page, full Product info, visualized Cad, Tweak and Add to Cart buttons (disabled if not a Client))
 
 - Guest (only without account) pages:
   - Home page (including quick info cards and useful shortcuts)
@@ -14,16 +14,19 @@
   
 - Client (registered as client) pages:
   - Dashboard page (useful widgets, like recent orders and total count of orders grouped by status, closable info about File vs Delivery)
-  - Product page (the public Product page now has its buttons enabled, Tweak leads to Tweak page, Add to Cart simply adds to cart)
   - Cart page (the Client can review the Items he's added to his Cart, and can Purchase them all at once.)
   - Purchase page (after cicking on Cart page's Purchase button, Credit Card info should be requested here and the transaction should be processed, and depending on what the Client chose he'll either receive the 3D File, or trigger a Delivery, or both)
-  - Custom page (the Client can describe in detail what he wants, then order it)
-  - Orders page (contains all the Client's Оrders - both Custom ones and those from the Cart, info about the orders themselves, includes a searchbar with filter and sort options)
+  - Order Form page (the Client can describe in detail what he wants, then order it)
+  - Orders page (contains all the Client's Оrders, and summarized info about them, includes a searchbar with filter and sort options)
   - Order page (when an order from Orders page is clicked, it leads the Client here, and he can view the order details and, depending on status, edit as well (straightforward if Pending, needs to be a requset if Accepted or Begun, forbidden if Finished))
-  - Cads page (contains all the Client's Cads - both Custom ones and those from the Cart, finished Custom orders and Cart purchases go here if 'As a File' option is chosen)
-  - Cad page (when a cad from Cads page is clicked, it leads the Client here, and he gets to visualize and tweak his Cad, and also Download it
-  - Deliveries page (contains all the Client's Deliveries - both Custom ones and those from the Cart, finished Custom orders and Cart purchases go here if 'As a Delivery' option is chosen)
-
+  - Carts page (contains all the Client's Carts and info summarized about them, includes a searchbar with filter and sort options)
+  - Cart page (when a cart from Carts page is clicked, it leads the Client here, and he can view the full Cart info and all its Items, includes a searchbar with filter and sort options)
+  - Item page (when an item from Cart page is clicked, it leads the Client here, and he can view the full Item info, includes a searchbar with filter and sort options)
+  - Cads page (contains all the Client's Cads - completed Orders and Cart purchases go here if 'As a File' option is chosen)
+  - Cad page (when a cad from Cads page is clicked, it leads the Client here, and he gets to visualize and tweak his Cad, and also Download it)
+  - Deliveries page (contains all the Client's Deliveries - completed Orders and Cart purchases go here if 'As a Delivery' option is chosen)
+  - Delivery page (when a delivery from Deliveries page is clicked, it leads the Client here, and he gets to see the full info of his Delivery, and also Cancel it)
+  
 - Contributor (registered as contributor) pages:
   - Dashboard page (useful widgets, like recent products and total count of products grouped by status, closable info about Upload vs Sale)
   - Upload page (the Contributor can provide Product info here and upload it to the Gallery (though it must be verified by a Designer first))
